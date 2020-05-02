@@ -4,3 +4,5 @@ A basic hangman game I will be using to learn about data types basic i/o, and pa
 This package can be compiled into the word game by navigating to the project directory and typing
 
 cargo build
+
+The words used for the game are randomly selected from the file src/dictionary.txt.
