@@ -66,7 +66,19 @@ fn print_man (misses: i32){
 }
 
 fn main() {
+    //initializing the secret string
     let secret:String = get_random_word();
-    println!("{}", secret);
-    print_man(6);
+    let secret_length = secret.len();
+    //creating a string to contain the current guess
+    let mut progress = String::new();
+    for _ in 0..secret_length{
+        progress.push('_');
+    }
+
+    let mut misses = 0;
+
+    //main control loop
+    while misses < 6{
+        misses += 1;
+    }
 }
