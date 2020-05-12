@@ -5,4 +5,9 @@ This package can be compiled into the word game by navigating to the project dir
 
 cargo build
 
+To run the project immediately after building in one command, type
+
+cargo run
+
 The words used for the game are randomly selected from the file src/dictionary.txt.
+In order to play the game, you must have this file in the directory in which you execute the program binary.
