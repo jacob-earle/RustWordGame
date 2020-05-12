@@ -155,7 +155,7 @@ fn main() {
         println!("Progress so far: {} ({} letters)", progress, progress.len());
 
         //uncomment line to see secret word revealed
-        println!("Secret: {}", secret);
+        //println!("Secret: {}", secret);
 
         //getting guess from player
         while input.len() != 1{
