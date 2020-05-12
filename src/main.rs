@@ -210,5 +210,6 @@ fn main() {
     }
     else{
         print_man(misses);
+        println!("Secret word was: {}", secret);
     }
 }
